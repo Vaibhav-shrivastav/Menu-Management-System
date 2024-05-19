@@ -37,7 +37,6 @@ const isValidObjectId = (id) => {
     return mongoose.Types.ObjectId.isValid(id);
 };
 
-// Get item by name or ID
 module.exports.getItemByIdOrName = async function getItemByIdOrName(req, res) {
     try {
         const { idOrName } = req.params;

@@ -24,11 +24,3 @@ const Category = mongoose.model('Category', CategorySchema);
 
 module.exports = Category;
 
-// Name: String
-// Image: URL
-// Description: String
-// Tax Applicability: Boolean
-// Tax: Number, if applicable
-// Tax type
-
-
