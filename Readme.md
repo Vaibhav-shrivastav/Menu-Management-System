@@ -123,7 +123,7 @@ This project follows the Model-View-Controller (MVC) architecture:
 ### Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/menu-management-system.git
+   git clone git@github.com:Vaibhav-shrivastav/Menu-Management-System.git
    cd menu-management-system
 
 2. **Install the dependencies:**
