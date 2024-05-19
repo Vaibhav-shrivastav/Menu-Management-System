@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 require('mongoose-type-url');
 
-const db_link = "mongodb+srv://vaibhavshrivastav222:0Kk3ELFn4t4XFcjD@cluster0.eqmlazd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const db_link = process.env.MONGO_URL;
 
 mongoose.connect(db_link)
 .then(()=>{
