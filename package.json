@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Vaibhav-shrivastav/Guestera-API-Task.git"
+  },
+  "author": "Vaibhav Shrivastav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vaibhav-shrivastav/Guestera-API-Task/issues"
+  },
+  "homepage": "https://github.com/Vaibhav-shrivastav/Guestera-API-Task#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0",
+    "mongoose-type-url": "^2.1.0"
+  }
+}
