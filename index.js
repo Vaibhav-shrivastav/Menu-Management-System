@@ -19,7 +19,7 @@ const itemRouter = require("./routers/itemsRouter");
 app.use(express.json());
 app.use(cookieParser());
 
-app.use('/', (req, res) =>{
+app.get('/', (req, res) =>{
     res.json("Welcome to Menu Management System")
 })
 
