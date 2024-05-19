@@ -19,6 +19,10 @@ const itemRouter = require("./routers/itemsRouter");
 app.use(express.json());
 app.use(cookieParser());
 
+app.use('/', (req, res) =>{
+    res.json("Welcome to Menu Management System")
+})
+
 app.use('/category', categoryRouter);
 app.use('/subcategories', subcategoryRouter);
 app.use('/items', itemRouter);
