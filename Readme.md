@@ -28,7 +28,7 @@ This project follows the Model-View-Controller (MVC) architecture:
 
 ### Category
 - **Create Category**
-  - `POST /categories`
+  - `POST /category`
   - Request Body:
     ```json
     {
@@ -41,13 +41,13 @@ This project follows the Model-View-Controller (MVC) architecture:
     ```
 
 - **Get All Categories**
-  - `GET /categories`
+  - `GET /category`
 
 - **Get Category by ID or Name**
-  - `GET /categories/search/:idOrName`
+  - `GET /category/search/:idOrName`
 
 - **Edit Category**
-  - `PATCH /categories/:id`
+  - `PATCH /category/:id`
   - Request Body: Attributes to update
 
 ### Subcategory
